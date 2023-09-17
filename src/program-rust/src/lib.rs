@@ -4,7 +4,6 @@ use solana_program::{
     entrypoint,
     entrypoint::ProgramResult,
     msg,
-    program_error::ProgramError,
     pubkey::Pubkey,
 };
 use rand::Rng;
