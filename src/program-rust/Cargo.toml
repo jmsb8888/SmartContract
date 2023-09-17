@@ -16,7 +16,7 @@ no-entrypoint = []
 borsh = "0.9.3"
 borsh-derive = "0.10.0"
 solana-program = "~1.10.35"
-getrandom = { version = "0.1.14", features = ["dummy"] }
+getrandom = { version = "0.2.8", features = ["custom"] }
 rand = "0.8"
 
 [dev-dependencies]
